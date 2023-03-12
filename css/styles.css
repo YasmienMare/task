@@ -1,0 +1,102 @@
+body{
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+    /* Logo */
+    .companyName{
+        font-weight: bold;
+        color: #0B132A;
+        margin-left: 10px;
+    }
+    .logoContant{
+        display: flex;
+        align-items: center;
+    }
+    .navListMargin{
+        margin-left: 25%;
+    }
+
+    /* NAV Buttons */
+    .signUpButton{
+        color: #F53855;
+        border-radius: 20px;
+        outline-color: #F53855;
+        border-color: #F53855 !important;
+        font-weight: bold;
+        margin: auto;
+        height: 45px;
+        width: 150px;
+        background-color: white;
+    }
+    .sigInButton{
+        color: #0B132A !important;
+        font-weight: bold !important;
+    }
+/* BODY */
+    /* Started Section */
+    .buttonStart{
+        height: 60px;
+        width: 250px;
+        border-radius: 10px;
+        color: white;
+        border: unset;
+        background-color: #F53855;
+        font-weight: bold;
+        box-shadow: 0 1.5rem 3rem  rgba(245, 56, 56, 0.35);
+    }
+    .aboutLaslesVPN{
+        padding: 20px;
+        margin-left: 20px;
+    }
+    .image{
+    }
+
+    .companyInformation{
+        height: 200px;
+        /* width: 1140px; */
+        border-radius: 10px;
+    }
+    .informationSection{
+        padding-top: 60px;
+    }
+    .globelText{
+        color: #0B132A !important;
+        font-weight: bold !important;
+    }
+    .spanTextColor{
+        color: #4F5665;
+    }
+    .iconsContainer{
+        border-radius: 50%;
+        background-color: #FFECEC;
+        height: 55px;
+        width: 55px;
+        vertical-align: middle;
+        padding: 12px 15px;
+        margin: 5px;
+    }
+
+/* Features sections */
+    .listOfFeatures{
+        margin-left: -5%;
+    }
+    .featureContent{
+
+    }
+
+/* Media Query */
+@media screen and (max-width: 992px) {
+    .image{
+        margin: auto;
+        background-position: center center;
+        background-size: cover;
+    }
+    .featureContent{
+     padding-left: 55px !important;
+     margin-top: 25px !important;   
+    }
+    .companyInformation{
+        height:auto;
+    }
+}
